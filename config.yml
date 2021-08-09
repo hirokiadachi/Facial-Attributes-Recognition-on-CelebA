@@ -1,0 +1,10 @@
+training:
+    batch_size: 100
+    start_epoch: 0
+    end_epoch: 300
+    lr: 0.1
+    weight_decay: 0.0001
+    tb: 'logs'
+    img_size: 224
+    momentum: 0.9
+    num_classes: 40
